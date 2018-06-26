@@ -9,5 +9,7 @@ class App < Sinatra::Base
   get '/info' do
     "Sinatra is so cool"
   end
-
+  get '/avani' do
+    "Avani is amazing"
+  end
 end
