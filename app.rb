@@ -6,4 +6,8 @@ class App < Sinatra::Base
     "Welcome to your app!!!!"
   end
 
+  get '/info' do
+    "Sinatra is so cool"
+  end
+
 end
